@@ -1,4 +1,4 @@
-# Android Upwork Demo
+# Android Random Person Demo
 
 Demo Android application using Gradle.
 Project is written entirely in Kotlin with MVVM architecture
