@@ -1,0 +1,232 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "2f6063332583038971d2cc5e96cdb8eb",
+    "entities": [
+      {
+        "tableName": "user",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`gender` TEXT NOT NULL, `email` TEXT NOT NULL, `phone` TEXT NOT NULL, `cell` TEXT NOT NULL, `nationality` TEXT NOT NULL, `isFavorite` INTEGER NOT NULL, `title` TEXT NOT NULL, `first` TEXT NOT NULL, `last` TEXT NOT NULL, `location_city` TEXT NOT NULL, `location_state` TEXT NOT NULL, `location_postCode` TEXT NOT NULL, `location_number` TEXT NOT NULL, `location_name` TEXT NOT NULL, `location_latitude` TEXT NOT NULL, `location_longitude` TEXT NOT NULL, `location_offset` TEXT NOT NULL, `location_description` TEXT NOT NULL, `uuid` BLOB NOT NULL, `username` TEXT NOT NULL, `password` TEXT NOT NULL, `salt` TEXT NOT NULL, `md5` TEXT NOT NULL, `sha1` TEXT NOT NULL, `sha256` TEXT NOT NULL, `dob_date` INTEGER NOT NULL, `dob_age` INTEGER NOT NULL, `registered_date` INTEGER NOT NULL, `registered_age` INTEGER NOT NULL, `name` TEXT NOT NULL, `value` TEXT, `large` TEXT NOT NULL, `medium` TEXT NOT NULL, `thumbnail` TEXT NOT NULL, PRIMARY KEY(`email`))",
+        "fields": [
+          {
+            "fieldPath": "gender",
+            "columnName": "gender",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "email",
+            "columnName": "email",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "phone",
+            "columnName": "phone",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cell",
+            "columnName": "cell",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nationality",
+            "columnName": "nationality",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isFavorite",
+            "columnName": "isFavorite",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name.title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name.first",
+            "columnName": "first",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name.last",
+            "columnName": "last",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location.city",
+            "columnName": "location_city",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location.state",
+            "columnName": "location_state",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location.postCode",
+            "columnName": "location_postCode",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location.street.number",
+            "columnName": "location_number",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location.street.name",
+            "columnName": "location_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location.coordinates.latitude",
+            "columnName": "location_latitude",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location.coordinates.longitude",
+            "columnName": "location_longitude",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location.timeZone.offset",
+            "columnName": "location_offset",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "location.timeZone.description",
+            "columnName": "location_description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loginInfo.uuid",
+            "columnName": "uuid",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loginInfo.username",
+            "columnName": "username",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loginInfo.password",
+            "columnName": "password",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loginInfo.salt",
+            "columnName": "salt",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loginInfo.md5",
+            "columnName": "md5",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loginInfo.sha1",
+            "columnName": "sha1",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "loginInfo.sha256",
+            "columnName": "sha256",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dateOfBirthInfo.date",
+            "columnName": "dob_date",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dateOfBirthInfo.age",
+            "columnName": "dob_age",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "registered.date",
+            "columnName": "registered_date",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "registered.age",
+            "columnName": "registered_age",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "id.name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "id.value",
+            "columnName": "value",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "picture.large",
+            "columnName": "large",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "picture.medium",
+            "columnName": "medium",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "picture.thumbnail",
+            "columnName": "thumbnail",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "email"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '2f6063332583038971d2cc5e96cdb8eb')"
+    ]
+  }
+}

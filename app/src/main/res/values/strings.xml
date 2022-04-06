@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Random Person Demo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Random User Demo</string>
+    <string name="nav_header_subtitle">office@decodex.net</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_generate_person_info">Generate Random Person</string>
+    <string name="menu_history">History</string>
+    <string name="menu_favorite_persons">Favorite Persons</string>
+    <string name="menu_about">About</string>
+
+    <string name="generate_user">Generate User</string>
+    <string name="person_details">Person Details</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="fab_button">Fab Button</string>
+</resources>
