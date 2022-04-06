@@ -46,7 +46,7 @@ Project is written entirely in Kotlin with MVVM architecture
 * `app/src/androidTest` - instrumented test source directory
 
 ## Architecture
-![MVVM](https://github.com/suppressf0rce/android-random-person-demo/blob/master/diagrams/mvvm.png)
+<img src="https://github.com/suppressf0rce/android-random-person-demo/blob/master/diagrams/mvvm.png" />
 
 ## Dependencies
 | **Dependency** | **Version** | **License** |
