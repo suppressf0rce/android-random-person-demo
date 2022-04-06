@@ -3,7 +3,7 @@
 Demo Android application using Gradle.
 Project is written entirely in Kotlin with MVVM architecture
 
-[![Build](https://github.com/suppressf0rce/android-random-person-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/suppressf0rce/android-random-person-demo/actions/workflows/ci.yml)(https://github.com/suppressf0rce/android-random-person-demo/actions/workflows/ci.yml)
+[![Build](https://github.com/suppressf0rce/android-random-person-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/suppressf0rce/android-random-person-demo/actions/workflows/ci.yml)
 [![LICENSE](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Join the chat at https://img.shields.io/discord/956034614059737179.svg](https://img.shields.io/discord/956034614059737179.svg)](https://discord.gg/RsE2TAUn4N)
 ![Latest Release](https://img.shields.io/badge/version-1.0.0-brightgreen)
