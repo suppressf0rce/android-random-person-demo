@@ -28,7 +28,8 @@ Project is written entirely in Kotlin with MVVM architecture
     * [Debug](#debug)
     * [Release](#release)
     * [Test](#test)
-* [Contributing](#contributing)    
+* [Contributing](#contributing)
+* [Code Of Conduct](#code-of-conduct)    
 * [License](#license)
 
 ## Structure
@@ -45,7 +46,7 @@ Project is written entirely in Kotlin with MVVM architecture
 * `app/src/androidTest` - instrumented test source directory
 
 ## Architecture
-![MVVM](diagrams/mvvm.png)
+![MVVM](https://github.com/suppressf0rce/android-random-person-demo/blob/master/diagrams/mvvm.png)
 
 ## Dependencies
 | **Dependency** | **Version** | **License** |
@@ -110,6 +111,9 @@ application in `build/outputs/lint/`.
 
 ## Contributing
 In order to contribute to this project please see the [contributing guidelines](CONTRIBUTING.md)
+
+## Code of Conduct
+Please read our [code of conduct](CODE_OF_CONDUCT.md)
 
 ## License
 This project is release under [GNU GPLv3 License](LICENSE)
