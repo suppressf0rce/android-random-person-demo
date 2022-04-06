@@ -1,7 +1,7 @@
-# Android Upwork Demo
+# Android Random Person Demo
 
 Demo Android application using Gradle.
-Project is written entirely in Kotlin with MVVM architecture
+Project is written entirely in Kotlin with MVVM architecture, Dagger / Hilt Dependency Injection, Room Database and Retrofit API Calls
 
 [![Build](https://github.com/suppressf0rce/android-random-person-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/suppressf0rce/android-random-person-demo/actions/workflows/ci.yml)
 [![LICENSE](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
